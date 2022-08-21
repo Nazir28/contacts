@@ -1,0 +1,30 @@
+.contacts {
+    ul {
+        list-style: none;
+        padding-left: 0px;
+        a {
+            background-color: white;
+            padding: 10px;
+            color: black;
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+            border-bottom: 1px solid #000;
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+            small {
+                font-size: 12px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.contact {
+    .spinner-border {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
